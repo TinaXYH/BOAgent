@@ -6,4 +6,4 @@ torch>=1.11.0
 scikit-learn>=1.0.0
 numpy>=1.21.0
 
-set OPENAI_API_KEY=“your openai api key”
+# set OPENAI_API_KEY=“your openai api key”
