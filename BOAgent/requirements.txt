@@ -1,0 +1,9 @@
+openai>=0.27.0
+transformers>=4.30.0
+datasets>=2.6.0
+evaluate>=0.3.0
+torch>=1.11.0
+scikit-learn>=1.0.0
+numpy>=1.21.0
+
+set OPENAI_API_KEY=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

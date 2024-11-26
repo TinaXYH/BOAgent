@@ -1,0 +1,29 @@
+import openai
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from .env file (optional)
+load_dotenv()
+
+# Set up OpenAI API key
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+def gpt4o_generate(prompt, model="gpt-4", max_tokens=500):
+    """
+    Utility function to generate a response from GPT-4.
+
+    Args:
+        prompt (str): The prompt to send to GPT-4.
+        model (str): The GPT model to use (default is "gpt-4").
+        max_tokens (int): The maximum number of tokens in the response.
+
+    Returns:
+        str: The response from GPT-4.
+    """
+    response = openai.chat.completions.create(
+        model=model,
+        messages=[{"role": "user", "content": prompt}],
+        max_tokens=max_tokens,
+        temperature=0.7
+    )
+    return response['choices'][0]['message']['content'].strip()
