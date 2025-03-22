@@ -1,5 +1,9 @@
 # BOAgent: A Multi-Agent Framework for Automating Bayesian Optimization
 
+## 📄 Technical Report
+
+This project is accompanied by a detailed technical report that outlines the methodology, implementation, and key findings. You can view the full PDF [here](./BOAgent_shortpaper.pdf).
+
 ## Overview
 
 BOAgent is a universal and efficient multi-agent framework designed to automate and generalize Bayesian Optimization (BO) processes. By leveraging the capabilities of Large Language Models (LLMs), BOAgent eliminates the need for manual prompt engineering and scales BO to high-dimensional tasks. It introduces a system agent for dynamic workflow planning and functional agents for executing key BO components such as surrogate modeling and candidate sampling.
