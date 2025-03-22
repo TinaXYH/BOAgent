@@ -1,6 +1,6 @@
 # BOAgent: A Multi-Agent Framework for Automating Bayesian Optimization
 
-## 📄 Technical Report
+## 📄 Technical Paper
 
 This project is accompanied by a detailed technical report that outlines the methodology, implementation, and key findings. You can view the full PDF [here](./BOAgent_shortpaper.pdf).
 
